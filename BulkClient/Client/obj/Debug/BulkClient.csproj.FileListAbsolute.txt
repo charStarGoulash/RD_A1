@@ -1,0 +1,20 @@
+D:\My Codes\RD\Assignment1\BulkClient\Client\bin\Debug\Client.exe.config
+D:\My Codes\RD\Assignment1\BulkClient\Client\bin\Debug\Client.exe
+D:\My Codes\RD\Assignment1\BulkClient\Client\bin\Debug\Client.pdb
+D:\My Codes\RD\Assignment1\BulkClient\Client\obj\Debug\BulkClient.csprojAssemblyReference.cache
+D:\My Codes\RD\Assignment1\BulkClient\Client\obj\Debug\Client.BulkClientForm.resources
+D:\My Codes\RD\Assignment1\BulkClient\Client\obj\Debug\Client.Properties.Resources.resources
+D:\My Codes\RD\Assignment1\BulkClient\Client\obj\Debug\BulkClient.csproj.GenerateResource.cache
+D:\My Codes\RD\Assignment1\BulkClient\Client\obj\Debug\BulkClient.csproj.CoreCompileInputs.cache
+D:\My Codes\RD\Assignment1\BulkClient\Client\obj\Debug\Client.exe
+D:\My Codes\RD\Assignment1\BulkClient\Client\obj\Debug\Client.pdb
+C:\Users\akato\OneDrive\Desktop\RD_A1\BulkClient\Client\bin\Debug\Client.exe.config
+C:\Users\akato\OneDrive\Desktop\RD_A1\BulkClient\Client\bin\Debug\Client.exe
+C:\Users\akato\OneDrive\Desktop\RD_A1\BulkClient\Client\bin\Debug\Client.pdb
+C:\Users\akato\OneDrive\Desktop\RD_A1\BulkClient\Client\obj\Debug\BulkClient.csprojAssemblyReference.cache
+C:\Users\akato\OneDrive\Desktop\RD_A1\BulkClient\Client\obj\Debug\Client.BulkClientForm.resources
+C:\Users\akato\OneDrive\Desktop\RD_A1\BulkClient\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\akato\OneDrive\Desktop\RD_A1\BulkClient\Client\obj\Debug\BulkClient.csproj.GenerateResource.cache
+C:\Users\akato\OneDrive\Desktop\RD_A1\BulkClient\Client\obj\Debug\BulkClient.csproj.CoreCompileInputs.cache
+C:\Users\akato\OneDrive\Desktop\RD_A1\BulkClient\Client\obj\Debug\Client.exe
+C:\Users\akato\OneDrive\Desktop\RD_A1\BulkClient\Client\obj\Debug\Client.pdb

@@ -1,0 +1,135 @@
+\hypertarget{class_client_1_1_bulk_client_form}{}\section{Client.\+Bulk\+Client\+Form Class Reference}
+\label{class_client_1_1_bulk_client_form}\index{Client.\+Bulk\+Client\+Form@{Client.\+Bulk\+Client\+Form}}
+Inheritance diagram for Client.\+Bulk\+Client\+Form\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_client_1_1_bulk_client_form}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_client_1_1_bulk_client_form_a04bd4b85e81d89abe705730c898659a5}{Bulk\+Client\+Form}} ()
+\begin{DoxyCompactList}\small\item\em Creates the actual client \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static string \mbox{\hyperlink{class_client_1_1_bulk_client_form_a14a353ff4bb98da49fb665a02108aab4}{Generate\+Name}} ()
+\begin{DoxyCompactList}\small\item\em Generates a random First name, Last name and date of birth \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Random \mbox{\hyperlink{class_client_1_1_bulk_client_form_aec9d029f1ae8d10bef537f77336da928}{r}} = new Random()
+\item 
+static Random \mbox{\hyperlink{class_client_1_1_bulk_client_form_a7078b4f3e0e2a7279720ef0cbf90ed3c}{random\+Num}} = new Random()
+\item 
+static int \mbox{\hyperlink{class_client_1_1_bulk_client_form_af63477f7eef3ff21f72474e568c2a143}{year}}
+\item 
+static int \mbox{\hyperlink{class_client_1_1_bulk_client_form_a7b8687df520c95b685759aa8f2823b0b}{month}}
+\item 
+static int \mbox{\hyperlink{class_client_1_1_bulk_client_form_aab0c2504e7939c1175f5605dc0f435d1}{day}}
+\item 
+static int \mbox{\hyperlink{class_client_1_1_bulk_client_form_ae9e9e5fb25241053492ab55351cea949}{real\+Day}}
+\item 
+static Date\+Time \mbox{\hyperlink{class_client_1_1_bulk_client_form_a54a644e8a4a92ed07cb0970ae557728a}{dt}}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_client_1_1_bulk_client_form_a36e09756179becfcc35fa8c09fa8c738}{Dispose}} (bool disposing)
+\begin{DoxyCompactList}\small\item\em Clean up any resources being used. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_client_1_1_bulk_client_form_a04bd4b85e81d89abe705730c898659a5}\label{class_client_1_1_bulk_client_form_a04bd4b85e81d89abe705730c898659a5}} 
+\index{Client\+::\+Bulk\+Client\+Form@{Client\+::\+Bulk\+Client\+Form}!Bulk\+Client\+Form@{Bulk\+Client\+Form}}
+\index{Bulk\+Client\+Form@{Bulk\+Client\+Form}!Client\+::\+Bulk\+Client\+Form@{Client\+::\+Bulk\+Client\+Form}}
+\subsubsection{\texorpdfstring{Bulk\+Client\+Form()}{BulkClientForm()}}
+{\footnotesize\ttfamily Client.\+Bulk\+Client\+Form.\+Bulk\+Client\+Form (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Creates the actual client 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_client_1_1_bulk_client_form_a36e09756179becfcc35fa8c09fa8c738}\label{class_client_1_1_bulk_client_form_a36e09756179becfcc35fa8c09fa8c738}} 
+\index{Client\+::\+Bulk\+Client\+Form@{Client\+::\+Bulk\+Client\+Form}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!Client\+::\+Bulk\+Client\+Form@{Client\+::\+Bulk\+Client\+Form}}
+\subsubsection{\texorpdfstring{Dispose()}{Dispose()}}
+{\footnotesize\ttfamily override void Client.\+Bulk\+Client\+Form.\+Dispose (\begin{DoxyParamCaption}\item[{bool}]{disposing }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Clean up any resources being used. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em disposing} & true if managed resources should be disposed; otherwise, false.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_client_1_1_bulk_client_form_a14a353ff4bb98da49fb665a02108aab4}\label{class_client_1_1_bulk_client_form_a14a353ff4bb98da49fb665a02108aab4}} 
+\index{Client\+::\+Bulk\+Client\+Form@{Client\+::\+Bulk\+Client\+Form}!Generate\+Name@{Generate\+Name}}
+\index{Generate\+Name@{Generate\+Name}!Client\+::\+Bulk\+Client\+Form@{Client\+::\+Bulk\+Client\+Form}}
+\subsubsection{\texorpdfstring{Generate\+Name()}{GenerateName()}}
+{\footnotesize\ttfamily static string Client.\+Bulk\+Client\+Form.\+Generate\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Generates a random First name, Last name and date of birth 
+
+\begin{DoxyReturn}{Returns}
+A string in the format First\+Name$\ast$\+Last\+Name$\ast$\+D\+OB
+\end{DoxyReturn}
+b tells how many times a new letter has been added. It\textquotesingle{}s 2 right now because the first two letters are already in the name. 
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_client_1_1_bulk_client_form_aab0c2504e7939c1175f5605dc0f435d1}\label{class_client_1_1_bulk_client_form_aab0c2504e7939c1175f5605dc0f435d1}} 
+\index{Client\+::\+Bulk\+Client\+Form@{Client\+::\+Bulk\+Client\+Form}!day@{day}}
+\index{day@{day}!Client\+::\+Bulk\+Client\+Form@{Client\+::\+Bulk\+Client\+Form}}
+\subsubsection{\texorpdfstring{day}{day}}
+{\footnotesize\ttfamily int Client.\+Bulk\+Client\+Form.\+day\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_client_1_1_bulk_client_form_a54a644e8a4a92ed07cb0970ae557728a}\label{class_client_1_1_bulk_client_form_a54a644e8a4a92ed07cb0970ae557728a}} 
+\index{Client\+::\+Bulk\+Client\+Form@{Client\+::\+Bulk\+Client\+Form}!dt@{dt}}
+\index{dt@{dt}!Client\+::\+Bulk\+Client\+Form@{Client\+::\+Bulk\+Client\+Form}}
+\subsubsection{\texorpdfstring{dt}{dt}}
+{\footnotesize\ttfamily Date\+Time Client.\+Bulk\+Client\+Form.\+dt\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_client_1_1_bulk_client_form_a7b8687df520c95b685759aa8f2823b0b}\label{class_client_1_1_bulk_client_form_a7b8687df520c95b685759aa8f2823b0b}} 
+\index{Client\+::\+Bulk\+Client\+Form@{Client\+::\+Bulk\+Client\+Form}!month@{month}}
+\index{month@{month}!Client\+::\+Bulk\+Client\+Form@{Client\+::\+Bulk\+Client\+Form}}
+\subsubsection{\texorpdfstring{month}{month}}
+{\footnotesize\ttfamily int Client.\+Bulk\+Client\+Form.\+month\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_client_1_1_bulk_client_form_aec9d029f1ae8d10bef537f77336da928}\label{class_client_1_1_bulk_client_form_aec9d029f1ae8d10bef537f77336da928}} 
+\index{Client\+::\+Bulk\+Client\+Form@{Client\+::\+Bulk\+Client\+Form}!r@{r}}
+\index{r@{r}!Client\+::\+Bulk\+Client\+Form@{Client\+::\+Bulk\+Client\+Form}}
+\subsubsection{\texorpdfstring{r}{r}}
+{\footnotesize\ttfamily Random Client.\+Bulk\+Client\+Form.\+r = new Random()\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_client_1_1_bulk_client_form_a7078b4f3e0e2a7279720ef0cbf90ed3c}\label{class_client_1_1_bulk_client_form_a7078b4f3e0e2a7279720ef0cbf90ed3c}} 
+\index{Client\+::\+Bulk\+Client\+Form@{Client\+::\+Bulk\+Client\+Form}!random\+Num@{random\+Num}}
+\index{random\+Num@{random\+Num}!Client\+::\+Bulk\+Client\+Form@{Client\+::\+Bulk\+Client\+Form}}
+\subsubsection{\texorpdfstring{random\+Num}{randomNum}}
+{\footnotesize\ttfamily Random Client.\+Bulk\+Client\+Form.\+random\+Num = new Random()\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_client_1_1_bulk_client_form_ae9e9e5fb25241053492ab55351cea949}\label{class_client_1_1_bulk_client_form_ae9e9e5fb25241053492ab55351cea949}} 
+\index{Client\+::\+Bulk\+Client\+Form@{Client\+::\+Bulk\+Client\+Form}!real\+Day@{real\+Day}}
+\index{real\+Day@{real\+Day}!Client\+::\+Bulk\+Client\+Form@{Client\+::\+Bulk\+Client\+Form}}
+\subsubsection{\texorpdfstring{real\+Day}{realDay}}
+{\footnotesize\ttfamily int Client.\+Bulk\+Client\+Form.\+real\+Day\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_client_1_1_bulk_client_form_af63477f7eef3ff21f72474e568c2a143}\label{class_client_1_1_bulk_client_form_af63477f7eef3ff21f72474e568c2a143}} 
+\index{Client\+::\+Bulk\+Client\+Form@{Client\+::\+Bulk\+Client\+Form}!year@{year}}
+\index{year@{year}!Client\+::\+Bulk\+Client\+Form@{Client\+::\+Bulk\+Client\+Form}}
+\subsubsection{\texorpdfstring{year}{year}}
+{\footnotesize\ttfamily int Client.\+Bulk\+Client\+Form.\+year\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Client/\mbox{\hyperlink{_bulk_client_form_8cs}{Bulk\+Client\+Form.\+cs}}\item 
+Client/\mbox{\hyperlink{_bulk_client_form_8_designer_8cs}{Bulk\+Client\+Form.\+Designer.\+cs}}\end{DoxyCompactItemize}

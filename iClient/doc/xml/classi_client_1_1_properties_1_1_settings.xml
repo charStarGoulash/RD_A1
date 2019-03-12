@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classi_client_1_1_properties_1_1_settings" kind="class" language="C#" prot="package">
+    <compoundname>iClient::Properties::Settings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ApplicationSettingsBase</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classi_client_1_1_properties_1_1_settings_1a6f4b314d2921f7a62f7baac5e7eb9339" prot="private" static="yes" mutable="no">
+        <type>Settings</type>
+        <definition>Settings iClient.Properties.Settings.defaultInstance</definition>
+        <argsstring></argsstring>
+        <name>defaultInstance</name>
+        <initializer>= ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/Properties/Settings.Designer.cs" line="18" column="1" bodyfile="Client/Properties/Settings.Designer.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classi_client_1_1_properties_1_1_settings_1acd48ab2e560c71d32ba4d13e88a4088b" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Settings</type>
+        <definition>Settings iClient.Properties.Settings.Default</definition>
+        <argsstring></argsstring>
+        <name>Default</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/Properties/Settings.Designer.cs" line="20" column="1" bodyfile="Client/Properties/Settings.Designer.cs" bodystart="20" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="9">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+      <node id="8">
+        <label>iClient.Properties.Settings</label>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="11">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+      <node id="10">
+        <label>iClient.Properties.Settings</label>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Client/Properties/Settings.Designer.cs" line="16" column="1" bodyfile="Client/Properties/Settings.Designer.cs" bodystart="16" bodyend="25"/>
+    <listofallmembers>
+      <member refid="classi_client_1_1_properties_1_1_settings_1acd48ab2e560c71d32ba4d13e88a4088b" prot="public" virt="non-virtual"><scope>iClient::Properties::Settings</scope><name>Default</name></member>
+      <member refid="classi_client_1_1_properties_1_1_settings_1a6f4b314d2921f7a62f7baac5e7eb9339" prot="private" virt="non-virtual"><scope>iClient::Properties::Settings</scope><name>defaultInstance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

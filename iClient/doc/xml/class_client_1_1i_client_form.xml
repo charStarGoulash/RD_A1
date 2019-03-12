@@ -1,0 +1,865 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_client_1_1i_client_form" kind="class" language="C#" prot="public">
+    <compoundname>Client::iClientForm</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1adee283b0f9072058cbe3d7d5a456456d" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Client.iClientForm.serverIP</definition>
+        <argsstring></argsstring>
+        <name>serverIP</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+<para>Keeps the server IP </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="38" column="1" bodyfile="Client/iClientForm.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1ae8c05b126e29325e9ffcf8ec6e363a53" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Client.iClientForm.port</definition>
+        <argsstring></argsstring>
+        <name>port</name>
+        <briefdescription>
+<para>Keeps the port number </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="42" column="1" bodyfile="Client/iClientForm.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1a88c1e8f3f751a4011b58ebe7436b604b" prot="private" static="no" mutable="no">
+        <type>TcpClient</type>
+        <definition>TcpClient Client.iClientForm.client</definition>
+        <argsstring></argsstring>
+        <name>client</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Used to connect to the TCPIP address </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="46" column="1" bodyfile="Client/iClientForm.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1af9f06a6cd36f75843d790c071d98129b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Client.iClientForm.connectFlag</definition>
+        <argsstring></argsstring>
+        <name>connectFlag</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Used to check if there has been a connection </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="50" column="1" bodyfile="Client/iClientForm.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1a0cf422a3338610558035b96ced057b89" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Client.iClientForm.portChecker</definition>
+        <argsstring></argsstring>
+        <name>portChecker</name>
+        <briefdescription>
+<para>Used for recieving true or false after converting port entered by user into an integer </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="54" column="1" bodyfile="Client/iClientForm.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1a8d5f6234ad0f2ca4504859f4d29b8167" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Client.iClientForm.errorChecker</definition>
+        <argsstring></argsstring>
+        <name>errorChecker</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Used to check for errors </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="58" column="1" bodyfile="Client/iClientForm.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1ad0353ae4ccdd6e66fb03a2486faa5e6c" prot="private" static="no" mutable="no">
+        <type>byte []</type>
+        <definition>byte [] Client.iClientForm.messageRecBuffer</definition>
+        <argsstring></argsstring>
+        <name>messageRecBuffer</name>
+        <briefdescription>
+<para>Used for recieving messages into a buffer </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="62" column="1" bodyfile="Client/iClientForm.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1a348f35686c02fcda1d80eee3689ba11a" prot="private" static="no" mutable="no">
+        <type>byte []</type>
+        <definition>byte [] Client.iClientForm.messageBuffer</definition>
+        <argsstring></argsstring>
+        <name>messageBuffer</name>
+        <briefdescription>
+<para>Another buffer used for a message, double buffer for speed </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="66" column="1" bodyfile="Client/iClientForm.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1ae72b978bafa2d04ea23c7aaea43ec9f4" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Client.iClientForm.updatedMessage</definition>
+        <argsstring></argsstring>
+        <name>updatedMessage</name>
+        <briefdescription>
+<para>Used to store the new message that user updated </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="70" column="1" bodyfile="Client/iClientForm.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1ab4722f87b29b702acbead1ed222db7fb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Client.iClientForm.bytesRead</definition>
+        <argsstring></argsstring>
+        <name>bytesRead</name>
+        <briefdescription>
+<para>Used to make sure there has been bytes actually read </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="74" column="1" bodyfile="Client/iClientForm.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1aa56aebefa21f6728992c9d5d065c2177" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Client.iClientForm.byteCount</definition>
+        <argsstring></argsstring>
+        <name>byteCount</name>
+        <briefdescription>
+<para>Keeps track of the byte count to ensure the program is either reading or writing bytes </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="78" column="1" bodyfile="Client/iClientForm.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1a929b64583ea1052391f98b07773500a6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Client.iClientForm.intVal</definition>
+        <argsstring></argsstring>
+        <name>intVal</name>
+        <briefdescription>
+<para>Hold the integer value of the memberID </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="82" column="1" bodyfile="Client/iClientForm.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1a6752097f7158e8d0d692ccaaa879c17d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Client.iClientForm.finalWarning</definition>
+        <argsstring></argsstring>
+        <name>finalWarning</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Used to check before giving a final warning before deleting </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="86" column="1" bodyfile="Client/iClientForm.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1afc1a1b1bee684b5398fe62646207ba9f" prot="private" static="no" mutable="no">
+        <type>string []</type>
+        <definition>string [] Client.iClientForm.data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+<para>Used to keep the users data after parsed from server </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="90" column="1" bodyfile="Client/iClientForm.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1aa8948fcea2d4707925f109b8acbc406f" prot="private" static="no" mutable="no">
+        <type>string []</type>
+        <definition>string [] Client.iClientForm.seperatingChars</definition>
+        <argsstring></argsstring>
+        <name>seperatingChars</name>
+        <initializer>= { &quot;ID: &quot;, &quot; found!\n&quot;, &quot;First: &quot;, &quot;Last: &quot;, &quot;DOB: &quot;, &quot;\n&quot; , &quot;;&quot; }</initializer>
+        <briefdescription>
+<para>The message delimiters used for parsing </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="94" column="1" bodyfile="Client/iClientForm.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1a45473efe30a6fa5a421231ab8977bbc4" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Client.iClientForm.readBuffer</definition>
+        <argsstring></argsstring>
+        <name>readBuffer</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+<para>Used to hold the message from the server </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="98" column="1" bodyfile="Client/iClientForm.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1acf33a3ae3c7417a39c1e0e45a706c718" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Client.iClientForm.firstName</definition>
+        <argsstring></argsstring>
+        <name>firstName</name>
+        <briefdescription>
+<para>Used to hold the first name of member </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="102" column="1" bodyfile="Client/iClientForm.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1ac66cea922ddb9df6786b2d6968046e5f" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Client.iClientForm.lastName</definition>
+        <argsstring></argsstring>
+        <name>lastName</name>
+        <briefdescription>
+<para>Used to hold the last name of member </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="106" column="1" bodyfile="Client/iClientForm.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1a7aed7901b938b66a4749b214bdeddfd0" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Client.iClientForm.dob</definition>
+        <argsstring></argsstring>
+        <name>dob</name>
+        <briefdescription>
+<para>Used to hold the date of birth of member </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="110" column="1" bodyfile="Client/iClientForm.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1add67be4e5e55ee14966c76236f0eff7b" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Client.iClientForm.memberID</definition>
+        <argsstring></argsstring>
+        <name>memberID</name>
+        <briefdescription>
+<para>Used to hold the ID of member </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="114" column="1" bodyfile="Client/iClientForm.cs" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1a6d7a9c5a7b9108c830377320c97e17d1" prot="private" static="no" mutable="no">
+        <type>NetworkStream</type>
+        <definition>NetworkStream Client.iClientForm.streamToServer</definition>
+        <argsstring></argsstring>
+        <name>streamToServer</name>
+        <briefdescription>
+<para>Holds the stream used to read and write messaages to the server </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="118" column="1" bodyfile="Client/iClientForm.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1a6f7677a40a043bba5028616ffe3451e4" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer Client.iClientForm.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.Designer.cs" line="8" column="1" bodyfile="Client/iClientForm.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1a5267a9cf9e960fb7e89b741ac7482a07" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox Client.iClientForm.IDBOX</definition>
+        <argsstring></argsstring>
+        <name>IDBOX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.Designer.cs" line="274" column="1" bodyfile="Client/iClientForm.Designer.cs" bodystart="274" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1ac56fd81b7a9c5f12d0c1c5ca3ae24823" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button Client.iClientForm.FindButton</definition>
+        <argsstring></argsstring>
+        <name>FindButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.Designer.cs" line="275" column="1" bodyfile="Client/iClientForm.Designer.cs" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1aa17d047ea302d790baa798a295baf735" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox Client.iClientForm.ipText</definition>
+        <argsstring></argsstring>
+        <name>ipText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.Designer.cs" line="276" column="1" bodyfile="Client/iClientForm.Designer.cs" bodystart="276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1acbb3996cca88e5bef84b076ddce8b434" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button Client.iClientForm.ipSubmit</definition>
+        <argsstring></argsstring>
+        <name>ipSubmit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.Designer.cs" line="277" column="1" bodyfile="Client/iClientForm.Designer.cs" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1a567c55c891a53d85287e04462fe17420" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Client.iClientForm.IPLabel</definition>
+        <argsstring></argsstring>
+        <name>IPLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.Designer.cs" line="278" column="1" bodyfile="Client/iClientForm.Designer.cs" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1a48362d7cd96c9eeb1cb4df46a3fd39cb" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Client.iClientForm.portLabel</definition>
+        <argsstring></argsstring>
+        <name>portLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.Designer.cs" line="279" column="1" bodyfile="Client/iClientForm.Designer.cs" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1a0a5dfcce9bf4a934d2f9533fca11fdbe" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox Client.iClientForm.portBox</definition>
+        <argsstring></argsstring>
+        <name>portBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.Designer.cs" line="280" column="1" bodyfile="Client/iClientForm.Designer.cs" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1aee436032317ad6429c5d7d20a7a983d1" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Client.iClientForm.label3</definition>
+        <argsstring></argsstring>
+        <name>label3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.Designer.cs" line="281" column="1" bodyfile="Client/iClientForm.Designer.cs" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1a22a51c10edb2fe270342f13939a618a8" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Client.iClientForm.label4</definition>
+        <argsstring></argsstring>
+        <name>label4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.Designer.cs" line="282" column="1" bodyfile="Client/iClientForm.Designer.cs" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1a0733cfe5609ae23d512bb43d202b903a" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button Client.iClientForm.UpdateButton</definition>
+        <argsstring></argsstring>
+        <name>UpdateButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.Designer.cs" line="283" column="1" bodyfile="Client/iClientForm.Designer.cs" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1a9dd2ee9db98bf501a6ed1217639dbc74" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button Client.iClientForm.DeleteButton</definition>
+        <argsstring></argsstring>
+        <name>DeleteButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.Designer.cs" line="284" column="1" bodyfile="Client/iClientForm.Designer.cs" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1aef4bb5a73c39f9327bcd91bb6a6affe9" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Client.iClientForm.memberIDLabel</definition>
+        <argsstring></argsstring>
+        <name>memberIDLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.Designer.cs" line="285" column="1" bodyfile="Client/iClientForm.Designer.cs" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1abf810889e0d91f60927c13a230567249" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox Client.iClientForm.FirstNameBox</definition>
+        <argsstring></argsstring>
+        <name>FirstNameBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.Designer.cs" line="286" column="1" bodyfile="Client/iClientForm.Designer.cs" bodystart="286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1a15d195cdce74408c93519d0a44e45fb2" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox Client.iClientForm.LastNameBox</definition>
+        <argsstring></argsstring>
+        <name>LastNameBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.Designer.cs" line="287" column="1" bodyfile="Client/iClientForm.Designer.cs" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1ac4739b7fd7c41912a0af4427898d7472" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox Client.iClientForm.dobBox</definition>
+        <argsstring></argsstring>
+        <name>dobBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.Designer.cs" line="288" column="1" bodyfile="Client/iClientForm.Designer.cs" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1ac26a2f1fd36b37a7c0685c9f33f8a7ab" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Client.iClientForm.FirstNameLabel</definition>
+        <argsstring></argsstring>
+        <name>FirstNameLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.Designer.cs" line="289" column="1" bodyfile="Client/iClientForm.Designer.cs" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1a29e76133714267966ce6205a11a2d1df" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Client.iClientForm.LastNameLabel</definition>
+        <argsstring></argsstring>
+        <name>LastNameLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.Designer.cs" line="290" column="1" bodyfile="Client/iClientForm.Designer.cs" bodystart="290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1ad67b717f87b0f834c3ac88019d01d3ee" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Client.iClientForm.DOBLabel</definition>
+        <argsstring></argsstring>
+        <name>DOBLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.Designer.cs" line="291" column="1" bodyfile="Client/iClientForm.Designer.cs" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1i_client_form_1a55213dc9139b30f130cccb53a3b44f52" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button Client.iClientForm.exitButton</definition>
+        <argsstring></argsstring>
+        <name>exitButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.Designer.cs" line="292" column="1" bodyfile="Client/iClientForm.Designer.cs" bodystart="292" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_client_1_1i_client_form_1a02a4efefdc76771e7781b4b30e598465" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Client.iClientForm.iClientForm</definition>
+        <argsstring>()</argsstring>
+        <name>iClientForm</name>
+        <briefdescription>
+<para>Creates the actual client form </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="123" column="1" bodyfile="Client/iClientForm.cs" bodystart="123" bodyend="126"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_client_1_1i_client_form_1a986efe9b0862321654bb9d6e252b786c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.iClientForm.button1_Click_1</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button1_Click_1</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Validates the users input for IP address and Port. Will hide the text and label boxes and show the memberID label and boxes </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>It is the event arguement generated by VS 2017</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object that is also generated by VS 2017</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Holds the regex pattern to ensure the IP is correct </para>        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="134" column="1" bodyfile="Client/iClientForm.cs" bodystart="134" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1i_client_form_1a6b467442f204382c29fa7e4d39be4dad" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.iClientForm.button1_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button1_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>The FIND user button. Will send memberID to the server and recieve the members data if found. It will then populate the first name, last name and date of birth field text and label boxes. It will Show the Update and Delete buttons. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>It is the event arguement generated by VS 2017</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object that is also generated by VS 2017</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="202" column="1" bodyfile="Client/iClientForm.cs" bodystart="202" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1i_client_form_1a193746befcec4ac8916234ff00c1e4b9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.iClientForm.UpdateButton_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>UpdateButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>The UPDATE user button will check to ensure that something was changed. If the user changed any of the fields the program will take that info and generate a string with the new information added to it. It will then send the string to the server to parse and update the database. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>It is the event arguement generated by VS 2017</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object that is also generated by VS 2017</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Holds the regex to ensure the date of birth is in correct format </para>        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="311" column="1" bodyfile="Client/iClientForm.cs" bodystart="311" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1i_client_form_1aa743de70614320708c65ed532a801f6c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.iClientForm.exitButton_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>exitButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>The EXIT button will close all opened streams and exit the program. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>It is the event arguement generated by VS 2017</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object that is also generated by VS 2017</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="420" column="1" bodyfile="Client/iClientForm.cs" bodystart="420" bodyend="432"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1i_client_form_1aa607668fefb8081d09d6b30922cd25b8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.iClientForm.DeleteButton_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>DeleteButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>The DELETE button will send a message containg the memberID and a delete flag to the server. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>It is the event arguement generated by VS 2017</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object that is also generated by VS 2017</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.cs" line="438" column="1" bodyfile="Client/iClientForm.cs" bodystart="438" bodyend="498"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1i_client_form_1a6baf948fbc7c0c7f7af37ddc2115638a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.iClientForm.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.Designer.cs" line="29" column="1" bodyfile="Client/iClientForm.Designer.cs" bodystart="29" bodyend="270"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_client_1_1i_client_form_1a12dd32ccdf0e36d4e350fc51de41ce7b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Client.iClientForm.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Client/iClientForm.Designer.cs" line="14" column="1" bodyfile="Client/iClientForm.Designer.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="namespacei_client" kindref="compound">iClient</ref> Form </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>Client.iClientForm</label>
+        <link refid="class_client_1_1i_client_form"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Form</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Client.iClientForm</label>
+        <link refid="class_client_1_1i_client_form"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Form</label>
+      </node>
+    </collaborationgraph>
+    <location file="Client/iClientForm.cs" line="34" column="1" bodyfile="Client/iClientForm.cs" bodystart="33" bodyend="499"/>
+    <listofallmembers>
+      <member refid="class_client_1_1i_client_form_1a6b467442f204382c29fa7e4d39be4dad" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>button1_Click</name></member>
+      <member refid="class_client_1_1i_client_form_1a986efe9b0862321654bb9d6e252b786c" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>button1_Click_1</name></member>
+      <member refid="class_client_1_1i_client_form_1aa56aebefa21f6728992c9d5d065c2177" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>byteCount</name></member>
+      <member refid="class_client_1_1i_client_form_1ab4722f87b29b702acbead1ed222db7fb" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>bytesRead</name></member>
+      <member refid="class_client_1_1i_client_form_1a88c1e8f3f751a4011b58ebe7436b604b" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>client</name></member>
+      <member refid="class_client_1_1i_client_form_1a6f7677a40a043bba5028616ffe3451e4" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>components</name></member>
+      <member refid="class_client_1_1i_client_form_1af9f06a6cd36f75843d790c071d98129b" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>connectFlag</name></member>
+      <member refid="class_client_1_1i_client_form_1afc1a1b1bee684b5398fe62646207ba9f" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>data</name></member>
+      <member refid="class_client_1_1i_client_form_1a9dd2ee9db98bf501a6ed1217639dbc74" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>DeleteButton</name></member>
+      <member refid="class_client_1_1i_client_form_1aa607668fefb8081d09d6b30922cd25b8" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>DeleteButton_Click</name></member>
+      <member refid="class_client_1_1i_client_form_1a12dd32ccdf0e36d4e350fc51de41ce7b" prot="protected" virt="non-virtual"><scope>Client::iClientForm</scope><name>Dispose</name></member>
+      <member refid="class_client_1_1i_client_form_1a7aed7901b938b66a4749b214bdeddfd0" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>dob</name></member>
+      <member refid="class_client_1_1i_client_form_1ac4739b7fd7c41912a0af4427898d7472" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>dobBox</name></member>
+      <member refid="class_client_1_1i_client_form_1ad67b717f87b0f834c3ac88019d01d3ee" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>DOBLabel</name></member>
+      <member refid="class_client_1_1i_client_form_1a8d5f6234ad0f2ca4504859f4d29b8167" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>errorChecker</name></member>
+      <member refid="class_client_1_1i_client_form_1a55213dc9139b30f130cccb53a3b44f52" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>exitButton</name></member>
+      <member refid="class_client_1_1i_client_form_1aa743de70614320708c65ed532a801f6c" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>exitButton_Click</name></member>
+      <member refid="class_client_1_1i_client_form_1a6752097f7158e8d0d692ccaaa879c17d" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>finalWarning</name></member>
+      <member refid="class_client_1_1i_client_form_1ac56fd81b7a9c5f12d0c1c5ca3ae24823" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>FindButton</name></member>
+      <member refid="class_client_1_1i_client_form_1acf33a3ae3c7417a39c1e0e45a706c718" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>firstName</name></member>
+      <member refid="class_client_1_1i_client_form_1abf810889e0d91f60927c13a230567249" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>FirstNameBox</name></member>
+      <member refid="class_client_1_1i_client_form_1ac26a2f1fd36b37a7c0685c9f33f8a7ab" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>FirstNameLabel</name></member>
+      <member refid="class_client_1_1i_client_form_1a02a4efefdc76771e7781b4b30e598465" prot="public" virt="non-virtual"><scope>Client::iClientForm</scope><name>iClientForm</name></member>
+      <member refid="class_client_1_1i_client_form_1a5267a9cf9e960fb7e89b741ac7482a07" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>IDBOX</name></member>
+      <member refid="class_client_1_1i_client_form_1a6baf948fbc7c0c7f7af37ddc2115638a" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>InitializeComponent</name></member>
+      <member refid="class_client_1_1i_client_form_1a929b64583ea1052391f98b07773500a6" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>intVal</name></member>
+      <member refid="class_client_1_1i_client_form_1a567c55c891a53d85287e04462fe17420" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>IPLabel</name></member>
+      <member refid="class_client_1_1i_client_form_1acbb3996cca88e5bef84b076ddce8b434" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>ipSubmit</name></member>
+      <member refid="class_client_1_1i_client_form_1aa17d047ea302d790baa798a295baf735" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>ipText</name></member>
+      <member refid="class_client_1_1i_client_form_1aee436032317ad6429c5d7d20a7a983d1" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>label3</name></member>
+      <member refid="class_client_1_1i_client_form_1a22a51c10edb2fe270342f13939a618a8" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>label4</name></member>
+      <member refid="class_client_1_1i_client_form_1ac66cea922ddb9df6786b2d6968046e5f" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>lastName</name></member>
+      <member refid="class_client_1_1i_client_form_1a15d195cdce74408c93519d0a44e45fb2" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>LastNameBox</name></member>
+      <member refid="class_client_1_1i_client_form_1a29e76133714267966ce6205a11a2d1df" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>LastNameLabel</name></member>
+      <member refid="class_client_1_1i_client_form_1add67be4e5e55ee14966c76236f0eff7b" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>memberID</name></member>
+      <member refid="class_client_1_1i_client_form_1aef4bb5a73c39f9327bcd91bb6a6affe9" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>memberIDLabel</name></member>
+      <member refid="class_client_1_1i_client_form_1a348f35686c02fcda1d80eee3689ba11a" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>messageBuffer</name></member>
+      <member refid="class_client_1_1i_client_form_1ad0353ae4ccdd6e66fb03a2486faa5e6c" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>messageRecBuffer</name></member>
+      <member refid="class_client_1_1i_client_form_1ae8c05b126e29325e9ffcf8ec6e363a53" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>port</name></member>
+      <member refid="class_client_1_1i_client_form_1a0a5dfcce9bf4a934d2f9533fca11fdbe" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>portBox</name></member>
+      <member refid="class_client_1_1i_client_form_1a0cf422a3338610558035b96ced057b89" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>portChecker</name></member>
+      <member refid="class_client_1_1i_client_form_1a48362d7cd96c9eeb1cb4df46a3fd39cb" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>portLabel</name></member>
+      <member refid="class_client_1_1i_client_form_1a45473efe30a6fa5a421231ab8977bbc4" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>readBuffer</name></member>
+      <member refid="class_client_1_1i_client_form_1aa8948fcea2d4707925f109b8acbc406f" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>seperatingChars</name></member>
+      <member refid="class_client_1_1i_client_form_1adee283b0f9072058cbe3d7d5a456456d" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>serverIP</name></member>
+      <member refid="class_client_1_1i_client_form_1a6d7a9c5a7b9108c830377320c97e17d1" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>streamToServer</name></member>
+      <member refid="class_client_1_1i_client_form_1a0733cfe5609ae23d512bb43d202b903a" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>UpdateButton</name></member>
+      <member refid="class_client_1_1i_client_form_1a193746befcec4ac8916234ff00c1e4b9" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>UpdateButton_Click</name></member>
+      <member refid="class_client_1_1i_client_form_1ae72b978bafa2d04ea23c7aaea43ec9f4" prot="private" virt="non-virtual"><scope>Client::iClientForm</scope><name>updatedMessage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

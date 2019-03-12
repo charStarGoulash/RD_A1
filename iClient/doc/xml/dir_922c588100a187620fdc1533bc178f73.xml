@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_922c588100a187620fdc1533bc178f73" kind="dir">
+    <compoundname>Client</compoundname>
+    <innerdir refid="dir_0369694700f0c0c8dc15cc309a15530d">Client/obj</innerdir>
+    <innerdir refid="dir_d8bfb7d24b6cf66f60fbd70280d23bf4">Client/Properties</innerdir>
+    <innerfile refid="i_client_form_8cs">iClientForm.cs</innerfile>
+    <innerfile refid="i_client_form_8_designer_8cs">iClientForm.Designer.cs</innerfile>
+    <innerfile refid="_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Client/"/>
+  </compounddef>
+</doxygen>

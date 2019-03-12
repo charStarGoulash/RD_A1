@@ -1,0 +1,14 @@
+D:\My Codes\RD\Assignment1\Server\Server\bin\Debug\Server.exe.config
+D:\My Codes\RD\Assignment1\Server\Server\bin\Debug\Server.exe
+D:\My Codes\RD\Assignment1\Server\Server\bin\Debug\Server.pdb
+D:\My Codes\RD\Assignment1\Server\Server\obj\Debug\Server.csprojAssemblyReference.cache
+D:\My Codes\RD\Assignment1\Server\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\My Codes\RD\Assignment1\Server\Server\obj\Debug\Server.exe
+D:\My Codes\RD\Assignment1\Server\Server\obj\Debug\Server.pdb
+C:\Users\akato\OneDrive\Desktop\RD_A1\Server\Server\bin\Debug\Server.exe.config
+C:\Users\akato\OneDrive\Desktop\RD_A1\Server\Server\bin\Debug\Server.exe
+C:\Users\akato\OneDrive\Desktop\RD_A1\Server\Server\bin\Debug\Server.pdb
+C:\Users\akato\OneDrive\Desktop\RD_A1\Server\Server\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\akato\OneDrive\Desktop\RD_A1\Server\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\akato\OneDrive\Desktop\RD_A1\Server\Server\obj\Debug\Server.exe
+C:\Users\akato\OneDrive\Desktop\RD_A1\Server\Server\obj\Debug\Server.pdb

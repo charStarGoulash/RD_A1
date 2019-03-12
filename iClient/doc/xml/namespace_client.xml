@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespace_client" kind="namespace" language="C#">
+    <compoundname>Client</compoundname>
+    <innerclass refid="class_client_1_1i_client_form" prot="public">Client::iClientForm</innerclass>
+    <innerclass refid="class_client_1_1_program" prot="public">Client::Program</innerclass>
+    <briefdescription>
+<para><ref refid="namespace_client" kindref="compound">Client</ref> Name Space Holds the methods to run the iclient </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Client/iClientForm.cs" line="30" column="1"/>
+  </compounddef>
+</doxygen>

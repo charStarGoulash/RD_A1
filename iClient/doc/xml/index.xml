@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="class_client_1_1i_client_form" kind="class"><name>Client::iClientForm</name>
+    <member refid="class_client_1_1i_client_form_1adee283b0f9072058cbe3d7d5a456456d" kind="variable"><name>serverIP</name></member>
+    <member refid="class_client_1_1i_client_form_1ae8c05b126e29325e9ffcf8ec6e363a53" kind="variable"><name>port</name></member>
+    <member refid="class_client_1_1i_client_form_1a88c1e8f3f751a4011b58ebe7436b604b" kind="variable"><name>client</name></member>
+    <member refid="class_client_1_1i_client_form_1af9f06a6cd36f75843d790c071d98129b" kind="variable"><name>connectFlag</name></member>
+    <member refid="class_client_1_1i_client_form_1a0cf422a3338610558035b96ced057b89" kind="variable"><name>portChecker</name></member>
+    <member refid="class_client_1_1i_client_form_1a8d5f6234ad0f2ca4504859f4d29b8167" kind="variable"><name>errorChecker</name></member>
+    <member refid="class_client_1_1i_client_form_1ad0353ae4ccdd6e66fb03a2486faa5e6c" kind="variable"><name>messageRecBuffer</name></member>
+    <member refid="class_client_1_1i_client_form_1a348f35686c02fcda1d80eee3689ba11a" kind="variable"><name>messageBuffer</name></member>
+    <member refid="class_client_1_1i_client_form_1ae72b978bafa2d04ea23c7aaea43ec9f4" kind="variable"><name>updatedMessage</name></member>
+    <member refid="class_client_1_1i_client_form_1ab4722f87b29b702acbead1ed222db7fb" kind="variable"><name>bytesRead</name></member>
+    <member refid="class_client_1_1i_client_form_1aa56aebefa21f6728992c9d5d065c2177" kind="variable"><name>byteCount</name></member>
+    <member refid="class_client_1_1i_client_form_1a929b64583ea1052391f98b07773500a6" kind="variable"><name>intVal</name></member>
+    <member refid="class_client_1_1i_client_form_1a6752097f7158e8d0d692ccaaa879c17d" kind="variable"><name>finalWarning</name></member>
+    <member refid="class_client_1_1i_client_form_1afc1a1b1bee684b5398fe62646207ba9f" kind="variable"><name>data</name></member>
+    <member refid="class_client_1_1i_client_form_1aa8948fcea2d4707925f109b8acbc406f" kind="variable"><name>seperatingChars</name></member>
+    <member refid="class_client_1_1i_client_form_1a45473efe30a6fa5a421231ab8977bbc4" kind="variable"><name>readBuffer</name></member>
+    <member refid="class_client_1_1i_client_form_1acf33a3ae3c7417a39c1e0e45a706c718" kind="variable"><name>firstName</name></member>
+    <member refid="class_client_1_1i_client_form_1ac66cea922ddb9df6786b2d6968046e5f" kind="variable"><name>lastName</name></member>
+    <member refid="class_client_1_1i_client_form_1a7aed7901b938b66a4749b214bdeddfd0" kind="variable"><name>dob</name></member>
+    <member refid="class_client_1_1i_client_form_1add67be4e5e55ee14966c76236f0eff7b" kind="variable"><name>memberID</name></member>
+    <member refid="class_client_1_1i_client_form_1a6d7a9c5a7b9108c830377320c97e17d1" kind="variable"><name>streamToServer</name></member>
+    <member refid="class_client_1_1i_client_form_1a6f7677a40a043bba5028616ffe3451e4" kind="variable"><name>components</name></member>
+    <member refid="class_client_1_1i_client_form_1a5267a9cf9e960fb7e89b741ac7482a07" kind="variable"><name>IDBOX</name></member>
+    <member refid="class_client_1_1i_client_form_1ac56fd81b7a9c5f12d0c1c5ca3ae24823" kind="variable"><name>FindButton</name></member>
+    <member refid="class_client_1_1i_client_form_1aa17d047ea302d790baa798a295baf735" kind="variable"><name>ipText</name></member>
+    <member refid="class_client_1_1i_client_form_1acbb3996cca88e5bef84b076ddce8b434" kind="variable"><name>ipSubmit</name></member>
+    <member refid="class_client_1_1i_client_form_1a567c55c891a53d85287e04462fe17420" kind="variable"><name>IPLabel</name></member>
+    <member refid="class_client_1_1i_client_form_1a48362d7cd96c9eeb1cb4df46a3fd39cb" kind="variable"><name>portLabel</name></member>
+    <member refid="class_client_1_1i_client_form_1a0a5dfcce9bf4a934d2f9533fca11fdbe" kind="variable"><name>portBox</name></member>
+    <member refid="class_client_1_1i_client_form_1aee436032317ad6429c5d7d20a7a983d1" kind="variable"><name>label3</name></member>
+    <member refid="class_client_1_1i_client_form_1a22a51c10edb2fe270342f13939a618a8" kind="variable"><name>label4</name></member>
+    <member refid="class_client_1_1i_client_form_1a0733cfe5609ae23d512bb43d202b903a" kind="variable"><name>UpdateButton</name></member>
+    <member refid="class_client_1_1i_client_form_1a9dd2ee9db98bf501a6ed1217639dbc74" kind="variable"><name>DeleteButton</name></member>
+    <member refid="class_client_1_1i_client_form_1aef4bb5a73c39f9327bcd91bb6a6affe9" kind="variable"><name>memberIDLabel</name></member>
+    <member refid="class_client_1_1i_client_form_1abf810889e0d91f60927c13a230567249" kind="variable"><name>FirstNameBox</name></member>
+    <member refid="class_client_1_1i_client_form_1a15d195cdce74408c93519d0a44e45fb2" kind="variable"><name>LastNameBox</name></member>
+    <member refid="class_client_1_1i_client_form_1ac4739b7fd7c41912a0af4427898d7472" kind="variable"><name>dobBox</name></member>
+    <member refid="class_client_1_1i_client_form_1ac26a2f1fd36b37a7c0685c9f33f8a7ab" kind="variable"><name>FirstNameLabel</name></member>
+    <member refid="class_client_1_1i_client_form_1a29e76133714267966ce6205a11a2d1df" kind="variable"><name>LastNameLabel</name></member>
+    <member refid="class_client_1_1i_client_form_1ad67b717f87b0f834c3ac88019d01d3ee" kind="variable"><name>DOBLabel</name></member>
+    <member refid="class_client_1_1i_client_form_1a55213dc9139b30f130cccb53a3b44f52" kind="variable"><name>exitButton</name></member>
+    <member refid="class_client_1_1i_client_form_1a02a4efefdc76771e7781b4b30e598465" kind="function"><name>iClientForm</name></member>
+    <member refid="class_client_1_1i_client_form_1a986efe9b0862321654bb9d6e252b786c" kind="function"><name>button1_Click_1</name></member>
+    <member refid="class_client_1_1i_client_form_1a6b467442f204382c29fa7e4d39be4dad" kind="function"><name>button1_Click</name></member>
+    <member refid="class_client_1_1i_client_form_1a193746befcec4ac8916234ff00c1e4b9" kind="function"><name>UpdateButton_Click</name></member>
+    <member refid="class_client_1_1i_client_form_1aa743de70614320708c65ed532a801f6c" kind="function"><name>exitButton_Click</name></member>
+    <member refid="class_client_1_1i_client_form_1aa607668fefb8081d09d6b30922cd25b8" kind="function"><name>DeleteButton_Click</name></member>
+    <member refid="class_client_1_1i_client_form_1a6baf948fbc7c0c7f7af37ddc2115638a" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_client_1_1i_client_form_1a12dd32ccdf0e36d4e350fc51de41ce7b" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_client_1_1_program" kind="class"><name>Client::Program</name>
+    <member refid="class_client_1_1_program_1a8e92853b75adb3e53fb8274bf0ff8e27" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="classi_client_1_1_properties_1_1_resources" kind="class"><name>iClient::Properties::Resources</name>
+    <member refid="classi_client_1_1_properties_1_1_resources_1abda0bc9f842ffe553b3c4053a440559a" kind="variable"><name>resourceMan</name></member>
+    <member refid="classi_client_1_1_properties_1_1_resources_1a32247984607cf353e7ee8090c00ae04d" kind="variable"><name>resourceCulture</name></member>
+    <member refid="classi_client_1_1_properties_1_1_resources_1a593a5e43b603c98e1b9fe31b1c64640a" kind="property"><name>ResourceManager</name></member>
+    <member refid="classi_client_1_1_properties_1_1_resources_1a27bd7d69cf7ac7e3d8e665a603068340" kind="property"><name>Culture</name></member>
+    <member refid="classi_client_1_1_properties_1_1_resources_1a1c525124e9772cc79bbefaf0cb633bcc" kind="function"><name>Resources</name></member>
+  </compound>
+  <compound refid="classi_client_1_1_properties_1_1_settings" kind="class"><name>iClient::Properties::Settings</name>
+    <member refid="classi_client_1_1_properties_1_1_settings_1a6f4b314d2921f7a62f7baac5e7eb9339" kind="variable"><name>defaultInstance</name></member>
+    <member refid="classi_client_1_1_properties_1_1_settings_1acd48ab2e560c71d32ba4d13e88a4088b" kind="property"><name>Default</name></member>
+  </compound>
+  <compound refid="namespace_client" kind="namespace"><name>Client</name>
+  </compound>
+  <compound refid="namespacei_client" kind="namespace"><name>iClient</name>
+  </compound>
+  <compound refid="namespacei_client_1_1_properties" kind="namespace"><name>iClient::Properties</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model" kind="namespace"><name>System::ComponentModel</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_drawing" kind="namespace"><name>System::Drawing</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net" kind="namespace"><name>System::Net</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net_1_1_sockets" kind="namespace"><name>System::Net::Sockets</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text_1_1_regular_expressions" kind="namespace"><name>System::Text::RegularExpressions</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_forms" kind="namespace"><name>System::Windows::Forms</name>
+  </compound>
+  <compound refid="i_client_form_8cs" kind="file"><name>iClientForm.cs</name>
+  </compound>
+  <compound refid="i_client_form_8_designer_8cs" kind="file"><name>iClientForm.Designer.cs</name>
+  </compound>
+  <compound refid="_temporary_generated_file__036_c0_b5_b-1481-4323-8_d20-8_f5_a_d_c_b23_d92_8cs" kind="file"><name>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</name>
+  </compound>
+  <compound refid="_temporary_generated_file__5937a670-0e60-4077-877b-f7221da3dda1_8cs" kind="file"><name>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</name>
+  </compound>
+  <compound refid="_temporary_generated_file___e7_a71_f73-0_f8_d-4_b9_b-_b56_e-8_e70_b10_b_c5_d3_8cs" kind="file"><name>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_resources_8_designer_8cs" kind="file"><name>Resources.Designer.cs</name>
+  </compound>
+  <compound refid="_settings_8_designer_8cs" kind="file"><name>Settings.Designer.cs</name>
+  </compound>
+  <compound refid="dir_922c588100a187620fdc1533bc178f73" kind="dir"><name>Client</name>
+  </compound>
+  <compound refid="dir_c3ce12f1694e503966a5d8c088d0baa0" kind="dir"><name>Client/obj/Debug</name>
+  </compound>
+  <compound refid="dir_0369694700f0c0c8dc15cc309a15530d" kind="dir"><name>Client/obj</name>
+  </compound>
+  <compound refid="dir_d8bfb7d24b6cf66f60fbd70280d23bf4" kind="dir"><name>Client/Properties</name>
+  </compound>
+</doxygenindex>
